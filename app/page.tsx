@@ -3,7 +3,7 @@ export default function Home() {
 
   return ( 
     <Button>
-      Hello welcome to my xterns first app!
+      First Stand up done by Abdikadri
     </Button>
   )
 }
