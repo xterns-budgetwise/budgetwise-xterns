@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="chore: update .gitignore and project layout for Clerk authentication setup" />
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: add Geist font support to layout for improved typography" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753278285773</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: add Geist font support to layout for improved typography">
+      <option name="closed" value="true" />
+      <created>1753278639997</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278639997</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,20 +247,15 @@
     <MESSAGE value="feat: replace custom SignUpPage with Clerk's SignUp component" />
     <MESSAGE value="feat: update Home component to display authenticated route message" />
     <MESSAGE value="chore: update .gitignore and project layout for Clerk authentication setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update .gitignore and project layout for Clerk authentication setup" />
+    <MESSAGE value="feat: add Geist font support to layout for improved typography" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Geist font support to layout for improved typography" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/layout.tsx</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/layout.tsx</url>
-          <line>10</line>
+          <line>19</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
