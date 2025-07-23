@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: add Clerk dependencies for authentication setup" />
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: add Clerk dependencies for authentication setup">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "4-setup-clerk-authentication-with-app-router-in-nextjs",
+    "git-widget-placeholder": "#9 on Merging 4-setup-clerk-authentication-with…extjs",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "last_opened_file_path": "/Users/fahimrashid/Documents/budgetwise-xterns",
@@ -52,7 +56,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "bun",
-    "ts.external.directory.path": "/Users/fahimrashid/Documents/budgetwise-xterns/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
