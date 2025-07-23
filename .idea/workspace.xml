@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="chore: update .gitignore and layout for Clerk authentication setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(dashboard)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-    </list>
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="chore: update .gitignore and project layout for Clerk authentication setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +163,63 @@
       <option name="project" value="LOCAL" />
       <updated>1753276497339</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore: remove outdated @clerk/clerk-react dependency from bun.lock">
+      <option name="closed" value="true" />
+      <created>1753278150365</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278150365</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: implement authentication middleware to protect routes">
+      <option name="closed" value="true" />
+      <created>1753278170041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278170041</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: update layout for Clerk authentication and change font to Inter">
+      <option name="closed" value="true" />
+      <created>1753278210094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278210094</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: replace custom SignInPage with Clerk's SignIn component">
+      <option name="closed" value="true" />
+      <created>1753278222040</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278222040</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: replace custom SignUpPage with Clerk's SignUp component">
+      <option name="closed" value="true" />
+      <created>1753278240884</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278240884</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: update Home component to display authenticated route message">
+      <option name="closed" value="true" />
+      <created>1753278270245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278270245</updated>
+    </task>
+    <task id="LOCAL-00015" summary="chore: update .gitignore and project layout for Clerk authentication setup">
+      <option name="closed" value="true" />
+      <created>1753278285773</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1753278285773</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +232,14 @@
     <MESSAGE value="chore: remove outdated Clerk dependency and add workspace configuration" />
     <MESSAGE value="feat: add SignIn and SignUp pages" />
     <MESSAGE value="chore: update .gitignore and layout for Clerk authentication setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: update .gitignore and layout for Clerk authentication setup" />
+    <MESSAGE value="chore: remove outdated @clerk/clerk-react dependency from bun.lock" />
+    <MESSAGE value="feat: implement authentication middleware to protect routes" />
+    <MESSAGE value="feat: update layout for Clerk authentication and change font to Inter" />
+    <MESSAGE value="feat: replace custom SignInPage with Clerk's SignIn component" />
+    <MESSAGE value="feat: replace custom SignUpPage with Clerk's SignUp component" />
+    <MESSAGE value="feat: update Home component to display authenticated route message" />
+    <MESSAGE value="chore: update .gitignore and project layout for Clerk authentication setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update .gitignore and project layout for Clerk authentication setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
