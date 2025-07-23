@@ -1,8 +1,5 @@
-const SignInPage = () => {
-    return (
-        <div>
-            Sign In Page
-        </div>
-    )
+import { SignIn } from '@clerk/nextjs'
+
+export default function Page() {
+    return <SignIn path="/sign-in" />;
 }
-export default SignInPage
