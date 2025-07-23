@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: add Clerk dependencies for authentication setup">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="chore: remove outdated Clerk dependency and add workspace configuration">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +50,30 @@
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "#9 on Merging 4-setup-clerk-authentication-with…extjs",
+    "git-widget-placeholder": "#9 on 4-setup-clerk-authentication-with…extjs",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "/Users/fahimrashid/Documents/budgetwise-xterns",
+    "last_opened_file_path": "/Users/fahimrashid/Documents/budgetwise-xterns/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "bun",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/fahimrashid/Documents/budgetwise-xterns/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-up]]" />
+      <recent name="$PROJECT_DIR$/app/(auth)/sign-in/[[...sign-in]]" />
+      <recent name="$PROJECT_DIR$/app/(auth)/sign-up/[[...sign-in]]" />
+      <recent name="$PROJECT_DIR$/app/(dashboard)" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -132,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753270393416</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chore: remove outdated Clerk dependency and add workspace configuration">
+      <option name="closed" value="true" />
+      <created>1753272373711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753272373711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +164,7 @@
     <MESSAGE value="chore: add initial project configuration files and .gitignore" />
     <MESSAGE value="chore: clean up layout.tsx by removing unnecessary comment" />
     <MESSAGE value="feat: add Clerk dependencies for authentication setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Clerk dependencies for authentication setup" />
+    <MESSAGE value="chore: remove outdated Clerk dependency and add workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: remove outdated Clerk dependency and add workspace configuration" />
   </component>
 </project>
