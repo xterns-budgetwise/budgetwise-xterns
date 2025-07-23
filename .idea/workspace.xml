@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: update workspace configuration for improved task management">
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat #4 : integrate Clerk authentication and add Geist font support in layout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753282245710</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat #4 : integrate Clerk authentication and add Geist font support in layout">
+      <option name="closed" value="true" />
+      <created>1753282609959</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1753282609959</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,14 +271,15 @@
     <MESSAGE value="chore: update .gitignore and project layout for Clerk authentication setup" />
     <MESSAGE value="feat: add Geist font support to layout for improved typography" />
     <MESSAGE value="feat: update workspace configuration for improved task management" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update workspace configuration for improved task management" />
+    <MESSAGE value="feat #4 : integrate Clerk authentication and add Geist font support in layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat #4 : integrate Clerk authentication and add Geist font support in layout" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/layout.tsx</url>
-          <line>25</line>
+          <line>11</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
