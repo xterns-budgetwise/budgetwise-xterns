@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: add Geist font support to layout for improved typography" />
+    <list default="true" id="e92bba1d-de27-4484-bdcd-6bd3682b1a17" name="Changes" comment="feat: update workspace configuration for improved task management" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753278639997</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: update workspace configuration for improved task management">
+      <option name="closed" value="true" />
+      <created>1753282245710</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1753282245710</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
     <MESSAGE value="feat: update Home component to display authenticated route message" />
     <MESSAGE value="chore: update .gitignore and project layout for Clerk authentication setup" />
     <MESSAGE value="feat: add Geist font support to layout for improved typography" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Geist font support to layout for improved typography" />
+    <MESSAGE value="feat: update workspace configuration for improved task management" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update workspace configuration for improved task management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
