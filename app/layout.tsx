@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import React from  "react";
+import React from "react";
+
 
 const inter = Inter({ subsets: ["latin"] });
-const geistSans = Geist({
+
+
+const geistSans = localFont({
+  src: "../public/fonts/Geist-Sans.woff2",
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
+const geistMono = localFont({
+  src: "../public/fonts/Geist-Mono.woff2",
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -21,15 +27,19 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <html lang="en">
-        <body className={`${inter.className} antialiased`}>{children}</body>
-      </html>
-    </ClerkProvider>
+      <ClerkProvider>
+        <html lang="en">
+        <body
+            className={`${inter.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+        {children}
+        </body>
+        </html>
+      </ClerkProvider>
   );
 }
